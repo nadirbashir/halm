@@ -37,7 +37,7 @@ const App = () => {
           </div>
           
           {/* section 2 */}
-          <div className="row section">
+          <div className="row section" style={{marginTop: '200px'}}>
             <div className="col-12 col-lg-6 col-md-6 col-sm-12 d-flex align-items-center">
               <div>
               <h2 className="mg-bottom">
@@ -66,6 +66,14 @@ const App = () => {
               </div>
             </div>
           </div>
+
+
+          <div class="row mg-bottom">
+          <div class="col mg-top center mg-bottom heading-section">
+            <h2 class="theme-heading">APPLICATION FOR</h2>
+            <h4>EVERY NEED</h4>
+          </div>
+        </div>
         </Layout>
       </div>
     </div>

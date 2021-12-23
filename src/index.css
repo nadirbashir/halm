@@ -2,6 +2,12 @@
 .app{
   font-family: 'Roboto', sans-serif;
 }
+.mg-top{
+  margin-top:100px;
+}
+.mg-bottom{
+  margin-bottom: 20px;
+}
 .col{
   padding: 0;
 }
@@ -82,6 +88,10 @@
 
 .section p{
   font-weight: 500;
+}
+
+.heading-section{
+  text-align: center;
 }
 
 .kiss-image{
