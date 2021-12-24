@@ -27,7 +27,7 @@ const App = () => {
               <div className="d-flex align-items-center">
                 <Button title="Start Now" size="button-m theme-dark" />
                 <div style={{ padding: "0 20px" }}>
-                  <img src={playWhite} width={30} height={30} />
+                  <img src={playWhite} width={30} height={30} alt="..." />
                 </div>
                 <h6>Watch how it works.</h6>
               </div>
@@ -85,25 +85,25 @@ const App = () => {
             <div className="col col-lg-2 mg-bottom">
               <h5>Link</h5>
               <p>
-                <a href="">Home</a>
+                <a href="true">Home</a>
               </p>
               <p>
-                <a href>Features</a>
+                <a href="true">Features</a>
               </p>
               <p>
-                <a href>Testimonials</a>
+                <a href='true'>Testimonials</a>
               </p>
             </div>
             <div className="col col-lg-2 mg-bottom">
               <h5>Support</h5>
               <p>
-                <a href>About Us</a>
+                <a href='true'>About Us</a>
               </p>
               <p>
-                <a href>Terms of Use</a>
+                <a href='true'>Terms of Use</a>
               </p>
               <p>
-                <a href>Privacy Policy</a>
+                <a href='true'>Privacy Policy</a>
               </p>
             </div>
             <div className="col mg-bottom">

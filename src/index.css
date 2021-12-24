@@ -100,10 +100,10 @@ a{
 }
 
 .kiss-image{
-  width: 600px;
-  height: 700px;
+  width: 500px;
+  height: 600px;
   position: absolute;
-  top: -50px;
+  top: -10px;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
@@ -131,7 +131,6 @@ a{
 
 .footer{
   width: 100%;
-  position: relative;
   margin: 0 auto;
   padding: 50px;
   font-size: 14px;

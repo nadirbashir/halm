@@ -8,18 +8,17 @@ import { Container, Navbar } from "react-bootstrap";
 export const NavbarContainer = () => {
   return (
     <Navbar expand="lg" variant="light" bg="white">
-  {/* <Container> */}
-    <Navbar.Brand href="#">
+    <Navbar.Brand href="true">
       <div className="col">
-          <a className="navbar-brand" href="#">
+          <div>
             <img
               src={logo}
               width={80}
               height={100}
               className="d-inline-block align-top"
-              alt=""
+              alt="img"
               />
-          </a>
+          </div>
         </div>
     </Navbar.Brand>
         <div className="col d-flex justify-content-around">
@@ -30,46 +29,10 @@ export const NavbarContainer = () => {
       <div>pricing</div>
         </div>
         <div className="col d-flex justify-content-around align-items-center">
-            <img src={user} width={25} height={25} />
+            <img src={user} width={25} height={25} alt="image" />
             <Button title={"LET'S TRY"} size="button-sm" />
             <img src={cart} width={50} height={50} />
         </div>
-  {/* </Container> */}
 </Navbar>
   );
 };
-{/* <a className="navbar-brand" href="#">
-<img
-src={logo}
-width={80}
-    height={100}
-    className="d-inline-block align-top"
-    alt=""
-  />
-</a> */}
-
-// // <nav className="navbar navbar-light bg-white">
-//     // {/* <div className="col">
-//       <a className="navbar-brand" href="#">
-//         <img
-//           src={logo}
-//           width={80}
-//           height={100}
-//           className="d-inline-block align-top"
-//           alt=""
-//         />
-//       </a>
-//     </div>
-//     <div className="col-5 d-flex justify-content-around">
-//     <div className="dropdown">
-//       Services
-//   </div>
-//   <div>Apps</div>
-//   <div>pricing</div>
-//     </div>
-//     <div className="col d-flex justify-content-around align-items-center">
-//         <img src={user} width={25} height={25} />
-//         <Button title={"LET'S TRY"} size="button-sm" />
-//         <img src={cart} width={50} height={50} />
-//     </div> */}
-// {/* </nav> */}
