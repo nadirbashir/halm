@@ -34,7 +34,7 @@ const App = () => {
             </div>
             <div className="col-12 col-lg-6 col-md-6 col-sm-12">
               <div className="land-image">
-                <img className="kiss-image" src={kiss} alt="kissImage" />
+                <img className="kiss-image" src={kiss} alt="kiss..." />
               </div>
             </div>
           </div>

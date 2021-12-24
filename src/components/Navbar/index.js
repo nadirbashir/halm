@@ -16,7 +16,7 @@ export const NavbarContainer = () => {
               width={80}
               height={100}
               className="d-inline-block align-top"
-              alt="img"
+              alt="..."
               />
           </div>
         </div>
@@ -29,7 +29,7 @@ export const NavbarContainer = () => {
       <div>pricing</div>
         </div>
         <div className="col d-flex justify-content-around align-items-center">
-            <img src={user} width={25} height={25} alt="image" />
+            <img src={user} width={25} height={25} alt="..." />
             <Button title={"LET'S TRY"} size="button-sm" />
             <img src={cart} width={50} height={50} />
         </div>
