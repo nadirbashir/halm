@@ -3,7 +3,7 @@ import logo from '../../assets/Hulm_cloud.png';
 import user from '../../assets/user.png';
 import cart from '../../assets/shopping-cart.png';
 import { Button } from "../Button";
-import { Container, Navbar } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 
 export const NavbarContainer = () => {
   return (
@@ -29,9 +29,9 @@ export const NavbarContainer = () => {
       <div>pricing</div>
         </div>
         <div className="col d-flex justify-content-around align-items-center">
-            <img src={user} width={25} height={25} alt="..." />
+            <img src={user} width={25} height={25} alt="asds" />
             <Button title={"LET'S TRY"} size="button-sm" />
-            <img src={cart} width={50} height={50} />
+            <img src={cart} width={50} height={50} alt="asds" />
         </div>
 </Navbar>
   );
